@@ -7,7 +7,32 @@
    padding:0;
    height:100%;
    background-color: #ffffff;
+
   }
+
+  @media only screen and (max-width: 600px) {
+    body {
+
+      background-color:#BC84BA; 
+    }
+  }
+
+      #categoryGrid {
+      margin: 0px 5%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 200px 200px 200px;
+      grid-template-areas:
+      "User Research"
+      "User Interface design"
+      "Web Development"
+      "Traveller APP"
+      "Yani Cooking App"
+      "Departmen of Education Website ( Redesign )"
+      ;
+      }
+    
+
+
   #container {
     min-height:100%;
     position:relative;
